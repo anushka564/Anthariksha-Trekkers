@@ -1,0 +1,27 @@
+node_modules
+dist
+dist-ssr
+.env
+.env.local
+.env.production
+.env.*.local
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# Raw source media (kept locally only — selected assets are copied into public/images)
+# Leading slash + uppercase pattern to avoid matching public/images/ on
+# case-insensitive filesystems like Windows.
+/IMAGES/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Stray local files — not part of the website
+Assignments All.docx.pdf
+Flow_*.mp4
+public/Microsoft.Services.Store.winmd
+
+# Editor state
+.idea/
